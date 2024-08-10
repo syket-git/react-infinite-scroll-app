@@ -1,8 +1,9 @@
-# React + Vite
+# React JS Infinite Scroll | React Interview Questions | Machine Coding Round
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome! In this video, we'll show you how to add infinite scroll with React JS. Infinite scroll is a mechanism that dynamically loads data as needed, ensuring optimal performance by avoiding critical issues. This feature is especially common in social media applications, but it can be intimidating to set up.
 
-Currently, two official plugins are available:
+We'll break down the process, making it clear that setting up infinite scrolling is easier than it seems. Infinite scrolling is essentially a form of pagination that doesn't require users to click a button. Instead, we hook it up to the scroll event.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+To make this efficient, we'll use the IntersectionObserver API, which checks when the last element of our list is loaded without compromising performance. Join us to learn how to seamlessly implement infinite scrolling in your React applications!
+
+![infinite scroll in react js](https://github.com/user-attachments/assets/9c5db7ca-0c96-4fa6-b148-81ee37b10b26)
